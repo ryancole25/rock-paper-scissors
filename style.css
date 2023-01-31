@@ -1,0 +1,96 @@
+* {
+    font-family: Helvetica;
+    background-color: azure;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    margin: 0px;
+}
+
+.computer {
+    text-align: center;
+    padding: 30px;
+    font-size: 32px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+button {
+    flex: 1;
+    height: 10em;
+    margin: 30px;
+    background-color: lightblue;
+}
+
+.results {
+    text-align: center;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.round {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.restart {
+    display: flex;
+    flex: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 15px;
+    height: 60px;
+    background-color: lightblue;
+} 
+
+.rock {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    height: 150px;
+}
+
+.paper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    height: 150px;
+}
+
+.scissors {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    height: 150px;
+}
+
+button img {
+    background-color: lightblue;
+    height: 90px;
+}
+
